@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consegna e Reso — SwissKeys</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#14162B; --surface:#1E2140; --paper:#F2EFE6; --paper-dim:#c9c6ba;
+    --gold:#E8B44C; --teal:#4FB6A8; --line: rgba(242,239,230,0.14);
+    --display: 'Chakra Petch', sans-serif; --body: 'Inter', sans-serif;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{background:var(--bg); color:var(--paper); font-family:var(--body); line-height:1.7;}
+  .wrap{max-width:760px; margin:0 auto; padding:56px 28px 100px;}
+  a{color:var(--gold);}
+  .back{font-size:13px; color:var(--paper-dim); text-decoration:none; display:inline-flex; align-items:center; gap:6px; margin-bottom:32px;}
+  .back:hover{color:var(--paper);}
+  h1{font-family:var(--display); font-size:clamp(26px,4vw,36px); margin-bottom:8px;}
+  .updated{font-size:12.5px; color:var(--paper-dim); margin-bottom:40px;}
+  h2{font-family:var(--display); font-size:18px; margin:36px 0 12px; color:var(--gold);}
+  p, li{font-size:14.5px; color:var(--paper-dim); margin-bottom:12px;}
+  ul{padding-left:20px; margin-bottom:16px;}
+  strong{color:var(--paper);}
+  .notice{
+    background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--gold);
+    border-radius:8px; padding:18px 20px; margin:24px 0; font-size:14px; color:var(--paper);
+  }
+  .notice.important{border-left-color:var(--teal);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="./dropkey-store.html">← Torna al negozio</a>
+  <h1>Consegna e Reso</h1>
+  <p class="updated">SwissKeys</p>
+
+  <h2>Consegna</h2>
+  <p>I codici vengono consegnati esclusivamente via <strong>email</strong>, all'indirizzo fornito al momento dell'acquisto. Nessuna spedizione fisica è prevista.</p>
+  <p>Ogni prodotto indica un tempo di consegna stimato nella propria scheda (es. "consegna immediata", "entro 2 ore"). Per i prodotti in pre-order, la consegna avviene alla data di uscita ufficiale del gioco, indicata chiaramente prima dell'acquisto.</p>
+  <p>Se non ricevi il codice entro il tempo massimo indicato, controlla la cartella spam/posta indesiderata, quindi contattaci con il numero d'ordine.</p>
+
+  <h2>Reso e rimborso — leggi con attenzione</h2>
+  <div class="notice important">
+    <strong>Regola importante per i prodotti digitali:</strong> sia il diritto svizzero che quello UE prevedono che il diritto di recesso decada nel momento in cui il contenuto digitale viene consegnato, se hai dato il consenso esplicito a riceverlo immediatamente. In pratica: <strong>una volta che il codice ti è stato inviato via email, non è possibile richiedere un rimborso per "ripensamento"</strong>. È una regola standard di settore, non una scelta arbitraria di SwissKeys.
+  </div>
+
+  <h2>Quando invece hai diritto al rimborso</h2>
+  <ul>
+    <li>Il codice risulta <strong>non funzionante o già utilizzato</strong>: rimborso completo o sostituzione</li>
+    <li>Il codice <strong>non viene consegnato</strong> entro il tempo massimo indicato: rimborso completo automatico</li>
+    <li>Hai acquistato per errore, prima ancora che il codice venisse inviato: contattaci immediatamente, valutiamo caso per caso</li>
+  </ul>
+
+  <h2>Come richiedere assistenza</h2>
+  <p>Scrivici con il numero d'ordine e la descrizione del problema — vedi la pagina <a href="./impressum.html">Contatti</a>.</p>
+</div>
+</body>
+</html>
